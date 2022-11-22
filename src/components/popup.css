@@ -1,0 +1,82 @@
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.62);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-inner {
+  position: relative;
+  padding: 32px;
+  width: 100%;
+  max-width: 950px;
+  background-color: #fff;
+  border-radius: 30px;
+  border-color: black;
+  border: 1px solid;
+}
+
+.popup-inner .close-btn {
+  position: absolute;
+  top: 2px;
+  right: 16px;
+  background-color: white;
+  border: none;
+  font-size: 32px;
+}
+
+.image_preview {
+  display: flex;
+  flex-direction: column;
+}
+
+.popup_textBox_data {
+  border: 1px solid grey;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  height: 35px;
+  margin-left: 50px;
+  width: 350px;
+}
+
+.popup_textBox_heading {
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 47px;
+}
+
+.popup_main_heading {
+  color: #304269;
+  font-size: 24px;
+}
+
+.caseId_heading {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.date_and_time {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.popup_update_button {
+  background-color: #fe3b4f;
+  border: 1px solid grey;
+  border-radius: 20px;
+  color: #fff;
+  height: 35px;
+  margin-bottom: -30px;
+  width: 130px;
+  margin-left: 160px;
+  margin-top: 20px;
+}
+.popup_caseId{
+  font-weight: 700;
+}

@@ -1,0 +1,86 @@
+.dropdown {
+  width: 150px;
+  border-radius: 13px;
+}
+
+.serch_data {
+  width: 150px;
+  border-radius: 13px;
+}
+
+.appoint_btn {
+  height: 35px;
+  border-radius: 25px;
+  background-color: rgb(254, 59, 79);
+  border: 1px solid grey;
+  font-size: 19px;
+  color: white;
+}
+
+.appoint_table_heading {
+  background-color: #d5d5d5;
+  font-size: 15px;
+  border: none;
+  height: 30px;
+  font-weight: 700;
+}
+
+.add_appoinment_btn {
+  background-color: #fe3b4f;
+  border: 1px solid grey;
+  border-radius: 20px;
+  margin-bottom: -30px;
+  width: 225px;
+}
+
+.date_input_field {
+  display: flex;
+}
+
+.popup_textBox_date_data {
+  border: 1px solid grey;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  height: 35px;
+  margin-left: 50px;
+  width: 170px;
+}
+
+.date_input_field_right {
+  margin-left: 20px;
+  margin-left: -60px;
+}
+
+.massage {
+  margin-left: 50px;
+  width: 350px;
+}
+.dateitme {
+  border: none;
+  font-weight: bold;
+}
+.dateitmeTabl {
+  border: none;
+}
+
+/* @media (man-width: 1024px) and (max-width: 1279px) {
+  .dashbord_th {
+    font-size: "small";
+  }
+  .appoint_table_heading {
+    font-size: x-small;
+  }
+} */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .appoint_table_heading {
+    background-color: #d5d5d5;
+    font-size: 12px;
+    border: none;
+    height: 30px;
+    font-weight: 700;
+  }
+  .appoint_table_content {
+    font-size: 12px;
+  }
+}

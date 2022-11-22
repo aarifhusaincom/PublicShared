@@ -1,0 +1,30 @@
+.patient_table_heading {
+  background-color: #d5d5d5;
+  font-size: 15px;
+  border: none;
+  height: 30px;
+  font-weight: 700;
+}
+
+.patient_table {
+  width: 100%;
+}
+
+.patient_popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.patient_popup-inner {
+  position: relative;
+  padding: 32px;
+  width: 100%;
+  max-width: 950px;
+  background-color: #fff;
+  border-radius: 15px;
+}

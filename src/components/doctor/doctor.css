@@ -1,0 +1,294 @@
+.input_checkBox {
+  width: 40px;
+  color: red;
+}
+
+.doctor_update_button {
+  background-color: #fe3b4f;
+  border: 1px solid grey;
+  border-radius: 20px;
+  color: #fff;
+  height: 35px;
+  width: 200px;
+  margin-top: 20px;
+}
+
+.update_button_div {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+/* .appoint_table_heading {
+  background-color: #d5d5d5;
+  font-size: 15px;
+  border: none;
+  height: 30px;
+  font-weight: 700;
+} */
+
+.popup_category {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popup_left_category {
+  max-width: 100%;
+}
+
+.popup_left_category_data {
+  width: 450px;
+}
+
+.popup_category_add_button {
+  background-color: #fe3b4f;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 700;
+  width: 250px;
+  margin-left: 100px;
+  margin-top: 15px;
+}
+
+.doctor_popup_textBox_data {
+  border: 1px solid grey;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  height: 35px;
+  margin-left: 50px;
+  width: 191px;
+}
+
+.doctor_popup_textBox_heading {
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 47px;
+}
+
+.toggle {
+  position: relative;
+  width: 50px;
+  height: 5px;
+  font-size: 20px;
+  margin: 0;
+  filter: opacity(0);
+  cursor: pointer;
+  z-index: 2;
+}
+
+.toggle ~ .switch {
+  position: absolute;
+  font-size: var(--font-size);
+  background: linear-gradient(silver, whitesmoke);
+  border-radius: 2.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toggle ~ .switch .inner {
+  width: 40px;
+  height: 15px;
+  background: hsl(115, 57%, 91%);
+  border-radius: 2em;
+  box-shadow: inset 0 0 1.5em rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+}
+
+.toggle ~ .switch .inner .disc {
+  width: 20px;
+  height: 20px;
+  background: #808080;
+  border-radius: 50%;
+  box-shadow: 0 0.4em 0.6em rgba(0, 0, 0, 0.2);
+  position: relative;
+  left: -30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s;
+  margin-top: -3px;
+}
+
+.toggle ~ .switch .inner .disc::before {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  background: linear-gradient(silver, whitesmoke);
+  border-radius: 50%;
+  text-align: center;
+  line-height: calc(3.5em * 0.8);
+  color: gray;
+}
+
+.toggle:checked ~ .switch .inner {
+  background: #fe3b4f;
+}
+
+.toggle:checked ~ .switch .inner .disc {
+  left: 30%;
+}
+
+.toggle:checked ~ .switch .inner .disc::before {
+  /* content: 'ON'; */
+  color: #fe3b4f;
+}
+
+.doctor_popup_card {
+  justify-content: space-around;
+}
+
+.doctor_popup_card_data {
+  width: 15rem;
+  height: 25rem;
+  overflow: auto;
+  background-color: #d9d9d9;
+  border: 1px solid gray;
+  border-radius: 30px;
+}
+
+.doctor_popup_card_data::-webkit-scrollbar {
+  display: none;
+  /* Safari and Chrome browsers */
+}
+
+.doctor_update_popup_image {
+  width: 285px;
+  display: flex;
+  justify-content: center;
+  padding: 15px 15px 0px 15px;
+}
+
+.doctor_add_popup_image {
+  display: flex;
+  justify-content: center;
+  padding: 15px 15px 0px 15px;
+}
+
+.doctor_category_popup_image {
+  display: flex;
+  justify-content: center;
+  padding: -0px 0px 15px 0px;
+  margin-top: -10px;
+}
+
+/* doctor page togel status button */
+.switch {
+  display: inline-block;
+  height: 15px;
+  position: relative;
+  width: 45px;
+}
+
+input:checked + .slider {
+  background-color: #d86f7a;
+  width: 40px;
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider,
+.slider:before {
+  left: 0;
+  position: absolute;
+  transition: 0.4s;
+}
+
+.slider {
+  background-color: #b9c7b8;
+  bottom: 0;
+  cursor: pointer;
+  right: 0;
+  top: 0;
+}
+
+input:checked + .slider:before {
+  background-color: #fe3b4f;
+  -webkit-transform: translateX(22px);
+  transform: translateX(22px);
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.slider:before {
+  background-color: grey;
+  bottom: -3px;
+  content: "";
+  height: 20px;
+  width: 20px;
+}
+
+.slider,
+.slider:before {
+  left: 0;
+  position: absolute;
+  transition: 0.4s;
+}
+
+.checkbox {
+  display: none;
+}
+
+.doctor_inner_popup {
+  position: relative;
+  padding: 32px;
+  /* width: 100%; */
+  max-width: 950px;
+  background-color: #fff;
+  border-radius: 30px;
+  border-color: black;
+  border: 1px solid;
+}
+
+.doctor_inner_popup .close-btn {
+  position: absolute;
+  top: 2px;
+  right: 16px;
+  background-color: white;
+  border: none;
+  font-size: 32px;
+}
+
+.inner_popup_textBox_data {
+  border: 1px solid grey;
+  border-radius: 10px;
+  /* font-size: 16px; */
+  font-weight: 600;
+  /* height: 35px; */
+  /* margin-left: 50px; */
+  /* width: 350px; */
+}
+
+.inner_popup_textBox_heading {
+  font-size: 16px;
+  font-weight: 600;
+  /* margin-left: 47px; */
+}
+
+.inner_popup_category_add_button {
+  background-color: #fe3b4f;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 700;
+  width: 250px;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
+.massage {
+  margin-left: 50px;
+  width: 350px;
+}
+
+/* @media (man-width: 1024px) and (max-width: 1279px) {
+  .appoint_table_heading {
+    font-size: x-large;
+  }
+} */

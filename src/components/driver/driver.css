@@ -1,0 +1,91 @@
+.driver_section {
+  background-color: lightgray;
+}
+
+.driver_data {
+  background-color: white;
+  border-radius: 15px;
+  width: 100%;
+  margin-left: -15px;
+}
+
+.driver_popup_textBox_data {
+  border: 1px solid grey;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  height: 35px;
+  margin-left: 240px;
+  width: 350px;
+}
+
+.driver_popup_textBox_heading {
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 241px;
+}
+
+.drive_close_icon {
+  background-color: #fff;
+  border: none;
+  font-size: 25px;
+  margin-left: -6px;
+  margin-top: -9px;
+  font-weight: 700;
+}
+
+.driver_popup_form {
+  margin-top: -78px;
+  padding: 15px;
+}
+
+.driver_update_btn {
+  background-color: #fe3b4f;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 700;
+  height: 39px;
+  margin-left: 80px;
+  margin-top: 20px;
+  width: 255px;
+}
+
+.add_form_data {
+  border-radius: 10px;
+  height: 29px;
+  width: 296px;
+  border: 1px solid;
+}
+
+.add_form_heading {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.add_update_btn {
+  background-color: #fe3b4f;
+  border-radius: 30px;
+  color: #fff;
+
+  font-size: 19px;
+  font-weight: 700;
+  height: 35px;
+  margin-left: 27px;
+  margin-top: 9px;
+  width: 250px;
+}
+
+.details-form-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.driver_table_heading {
+  background-color: #d5d5d5;
+  font-size: 15px;
+  border: none;
+  height: 30px;
+
+  font-weight: 700;
+}

@@ -1,0 +1,44 @@
+.dropdown {
+  border-radius: 13px;
+  min-width: fit-content;
+}
+
+.serch_data {
+  width: 150px;
+  border-radius: 13px;
+}
+
+.prescreption_update_button {
+  background-color: #fe3b4f;
+  border: 1px solid grey;
+  border-radius: 20px;
+  color: #fff;
+  height: 35px;
+  margin-bottom: -30px;
+  width: 130px;
+  margin-left: 160px;
+  margin-top: -30px;
+}
+
+.prescreption_table_heading {
+  background-color: #d5d5d5;
+  font-size: 15px;
+  border: none;
+  height: 30px;
+  font-weight: 700;
+}
+
+.prescription_update_popup_image {
+  width: 285px;
+  display: flex;
+  justify-content: center;
+  padding: 15px 15px 0px 15px;
+}
+
+.massage {
+  margin-left: 50px;
+  width: 350px;
+}
+.medicine_image {
+  margin-right: 5px;
+}

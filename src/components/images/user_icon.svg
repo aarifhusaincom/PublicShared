@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="77.998" height="73" viewBox="0 0 77.998 73">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#13a1b1"/>
+      <stop offset="1" stop-color="#13a1b1"/>
+    </radialGradient>
+    <filter id="Rectangle_7868" x="0" y="0" width="77.998" height="73" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.749"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="total_users" data-name="total users" transform="translate(-299.502 -414)">
+    <g transform="matrix(1, 0, 0, 1, 299.5, 414)" filter="url(#Rectangle_7868)">
+      <rect id="Rectangle_7868-2" data-name="Rectangle 7868" width="59.998" height="55" rx="10" transform="translate(9 6)" fill="url(#radial-gradient)"/>
+    </g>
+    <path id="ic_person_24px" d="M15.8,15.8A5.9,5.9,0,1,0,9.9,9.9,5.9,5.9,0,0,0,15.8,15.8Zm0,2.949c-3.937,0-11.8,1.976-11.8,5.9v2.949H27.591V24.642C27.591,20.72,19.732,18.744,15.8,18.744Z" transform="translate(322.706 431.704)" fill="#fff"/>
+  </g>
+</svg>

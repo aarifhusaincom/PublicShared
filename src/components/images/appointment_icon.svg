@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="77.998" height="73" viewBox="0 0 77.998 73">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff9ef8"/>
+      <stop offset="1" stop-color="#b113a6"/>
+    </radialGradient>
+    <filter id="Path_85" x="0" y="0" width="77.998" height="73" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.749"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Current_openings" data-name="Current openings" transform="translate(-299.502 -414)">
+    <g transform="matrix(1, 0, 0, 1, 299.5, 414)" filter="url(#Path_85)">
+      <path id="Path_85-2" data-name="Path 85" d="M10,0H50A10,10,0,0,1,60,10V45A10,10,0,0,1,50,55H10A10,10,0,0,1,0,45V10A10,10,0,0,1,10,0Z" transform="translate(9 6)" fill="url(#radial-gradient)"/>
+    </g>
+    <path id="ic_work_24px" d="M20,6H16V4a1.993,1.993,0,0,0-2-2H10A1.993,1.993,0,0,0,8,4V6H4A1.985,1.985,0,0,0,2.01,8L2,19a1.993,1.993,0,0,0,2,2H20a1.993,1.993,0,0,0,2-2V8A1.993,1.993,0,0,0,20,6ZM14,6H10V4h4Z" transform="translate(326.501 435.999)" fill="#fff"/>
+  </g>
+</svg>
